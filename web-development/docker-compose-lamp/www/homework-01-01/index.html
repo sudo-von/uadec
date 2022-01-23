@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      width: 500px;
+    }
+
+    .form {
+      width: 400px;
+    }
+
+    .flex-box {
+      display: flex;
+    }
+
+    .align-center {
+      align-items: center;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .justify-content-center {
+      justify-content: center;
+    }
+  </style>
+  <title>Mockup</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Header. -->
+    <h1>Jobeet</h1>
+
+    <!-- Navbar. -->
+    <div class="flex-box space-between">
+      <div>
+        <input type="text" placeholder="Live search">
+        <button>Search</button>
+      </div>
+      <button>Post a Job</button>
+    </div>
+
+    <!-- Job form. -->
+    <form class="form">
+
+      <h2>Post a Job</h2>
+
+      <div class="flex-box space-between align-center">
+        <p>
+          Category
+        </p>
+        <select id="category">
+          <option value="design">Design</option>
+        </select>
+      </div>
+
+      <div class="flex-box space-between align-center">
+        <p>Type</p>
+        <div>
+          <label for="full-time">
+            <input name="type" type="radio" id="full-time">
+            Full time
+          </label>
+          <label for="part-time">
+            <input name="type" type="radio" id="part-time">
+            Part time
+          </label>
+          <label for="freelance">
+            <input name="type" type="radio" id="freelance">
+            Freelance
+          </label>
+        </div>
+      </div>
+
+      <div class="flex-box space-between align-center">
+        <p>
+          Company
+        </p>
+        <input id="company">
+      </div>
+
+      <div class="flex-box space-between align-center">
+        <p>
+          Logo
+        </p>
+        <input id="logo" type="file">
+      </div>
+
+      <div class="flex-box space-between align-center">
+        <p>
+          URL
+        </p>
+        <input id="url">
+      </div>
+
+      <div class="flex-box space-between align-center">
+        <p>
+          Position
+        </p>
+        <input id="position">
+      </div>
+
+      <div class="flex-box space-between align-center">
+        <p>
+          Location
+        </p>
+        <input id="location">
+      </div>
+
+      <div class="flex-box space-between align-center">
+        <p>
+          Description
+        </p>
+        <textarea id="description" rows="2"></textarea>
+      </div>
+
+      <div class="flex-box space-between">
+        <a href="#">AboutJobeet</a>
+        <a href="#">Full RSS Feed</a>
+        <a href="#">Jobeet API</a>
+        <a href="#">Affiliates</a>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
+</html>
