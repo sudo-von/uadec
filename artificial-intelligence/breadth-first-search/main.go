@@ -46,6 +46,8 @@ func breadthFirstSearch(binaryTree map[string][]string, root string) {
 		}
 		fmt.Println(queue)
 	}
+
 	fmt.Println("Queue is empty...")
 	fmt.Printf("Path: %s", path)
+
 }
