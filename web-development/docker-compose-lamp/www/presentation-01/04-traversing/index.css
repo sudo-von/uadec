@@ -1,0 +1,8 @@
+.ancestors * { 
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  display: block;
+  padding: 20px;
+  color: lightgrey;
+  margin: 20px;
+}

@@ -46,6 +46,8 @@ func depthFirstSearch(binaryTree map[string][]string, root string) {
 		}
 		fmt.Println(stack)
 	}
+
 	fmt.Println("Stack is empty...")
 	fmt.Printf("Path: %s", path)
+
 }
